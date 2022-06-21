@@ -6,7 +6,7 @@ function gitu(){
     cd $1
     virtualenv env
     source ./env/bin/activate
-    touch README.md
+    touch main.py
     git init
     git remote add origin git@github.com:ShahadilMunawir/$1.git
     git add .
